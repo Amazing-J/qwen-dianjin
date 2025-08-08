@@ -12,7 +12,8 @@
 
 
 ## 🚀 最新动态
-- **2025.05.22** 🔥🔥🔥《M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset》已被 ACL-2025 正式录用！
+- **2025.08.08** 🔥🔥🔥《[Evaluating, Synthesizing, and Enhancing for Customer Support Conversation](https://arxiv.org/abs/2508.04423)》已发布并开源！
+- **2025.05.22** 🔥🔥🔥《[M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset](https://arxiv.org/abs/2506.02510)》已被 ACL-2025 正式录用！
 - **2025.04.23** [DianJin-R1](DianJin-R1/README.md) 系列开源发布！此次发布包括 DianJin-R1-Data 数据集，以及两款强大的模型：DianJin-R1-7B 和 DianJin-R1-13B。查看我们的技术报告《[DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models](https://arxiv.org/abs/2504.15716)》，深入了解详情，并探索这些新模型的能力。
 - **2025.01.06** [CFLUE](https://github.com/aliyun/cflue)数据集已经全部开源，现已开放下载！🚀🚀🚀
 - **2024.05.16** 《[Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset](https://arxiv.org/abs/2405.10542)》已被 ACL-2024 正式录用！ 🚀🚀🚀
@@ -22,31 +23,43 @@
 <table style="width: 100%; text-align: center;">
     <tr>
         <td></td>
-        <td>ModelScope</td>
-        <td>HuggingFace</td>
-        <td>Paper</td>
+        <th>ModelScope</th>
+        <th>HuggingFace</th>
+        <th>Paper</th>
+    </tr>
     <tr>
+        <th>CSC</th>
+        <td><a href="https://www.modelscope.cn/datasets/tongyi_dianjin/DianJin-CSC-Data">CSC</a></td>
+        <td><a href="https://huggingface.co/datasets/DianJin/DianJin-CSC-Data">CSC</a></td>
+        <td><a href="https://arxiv.org/abs/2508.04423">Paper</a></td>
+    </tr>
+    <tr>
+        <th>M<sup>3</sup>FinMeeting</th>
+        <td colspan="2">Releasing Soon</td>
+        <td><a href="https://arxiv.org/abs/2506.02510">ACL-2025</a></td>
+    </tr>
     <tr>
         <th rowspan="3">DianJin-R1</th>
-        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-32B</a></td>
-        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-32B</a></td>
-        <th rowspan="3"><a href="https://arxiv.org/abs/2504.15716">technical report</a></th>
+        <td><a href="https://www.modelscope.cn/models/tongyi_dianjin/DianJin-R1-32B">DianJin-R1-32B</a></td>
+        <td><a href="https://huggingface.co/DianJin/DianJin-R1-32B">DianJin-R1-32B</a></td>
+        <td rowspan="3"><a href="https://arxiv.org/abs/2504.15716">Technical Report</a></td>
     </tr>
     <tr>
-        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-7B</a></td>
-        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-7B</a></td>
+        <td><a href="https://www.modelscope.cn/models/tongyi_dianjin/DianJin-R1-7B">DianJin-R1-7B</a></td>
+        <td><a href="https://huggingface.co/DianJin/DianJin-R1-7B">DianJin-R1-7B</a></td>
     </tr>
     <tr>
-        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-Data</a></td>
-        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-Data</a></td>
+        <td><a href="https://www.modelscope.cn/datasets/tongyi_dianjin/DianJin-R1-Data">DianJin-R1-Data</a></td>
+        <td><a href="https://huggingface.co/datasets/DianJin/DianJin-R1-Data">DianJin-R1-Data</a></td>
     </tr>
     <tr>
-        <td>CFLUE</td>
+        <th>CFLUE</th>
         <td><a href="https://modelscope.cn/datasets/tongyi_dianjin/CFLUE">CFLUE</a></td>
-        <td><a href="https://huggingface.co/DianJin/">CFLUE</a></td>
+        <td><a href="https://huggingface.co/datasets/DianJin/CFLUE">CFLUE</a></td>
         <td><a href="https://arxiv.org/abs/2405.10542">ACL-2024</a></td>
     </tr>
 </table>
+
 
 ## 📝 简介
 欢迎来到通义点金 👋
@@ -81,21 +94,28 @@
 If you find our work helpful, feel free to give us a cite.
 
 ```
-@inproceedings{zhu-etal-2025-finmeeting,
+@article{csc,
+    title = {Evaluating, Synthesizing, and Enhancing for Customer Support Conversation}, 
+    author = {Jie Zhu, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang, Fang Kong},
+    journal = {https://arxiv.org/abs/2508.04423},
+    year = "2025"
+}
+
+@inproceedings{m3finmeeting,
     title = "M^{3}FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
     author = "Jie Zhu, Junhui Li, Yalong Wen, Xiandong Li, Lifan Guo, Feng Chen",
     booktitle = "Findings of ACL",
     year = "2025"
 }
 
-@article{zhu-etal-2025-dianjin-r1,
-    title   = {DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models}, 
-    author   = {Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang},
+@article{dianjin-r1,
+    title = {DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models}, 
+    author = {Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang},
     journal = {arxiv.org/abs/2504.15716},
-    year    = {2025}
+    year = "2025"
 }
 
-@inproceedings{zhu-etal-2024-cflue,
+@inproceedings{cflue,
     title = "Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset",
     author = "Jie Zhu, Junhui Li, Yalong Wen, Lifan Guo",
     booktitle = "Findings of ACL",
