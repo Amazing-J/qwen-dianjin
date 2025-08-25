@@ -11,8 +11,9 @@
 </div>
 
 ## 🚀 News 
+- **2025.08.25** 🔥🔥🔥 "[Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models](https://arxiv.org/abs/2508.15202)" is now published and open source!
 - **2025.08.08** 🔥🔥🔥 "[Evaluating, Synthesizing, and Enhancing for Customer Support Conversation](https://arxiv.org/abs/2508.04423)" is now published and open source!
-- **2025.05.22** 🔥🔥🔥 "[M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset](https://arxiv.org/abs/2506.02510)" has been officially accepted by ACL-2025! 
+- **2025.05.22** "[M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset](https://arxiv.org/abs/2506.02510)" has been officially accepted by ACL-2025! 
 - **2025.04.23** [DianJin-R1](DianJin-R1/README.md) series open source release! This release includes the DianJin-R1-Data dataset, as well as two powerful models: DianJin-R1-7B and DianJin-R1-13B. Please check out our technical report "[DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models](https://arxiv.org/abs/2504.15716)" for more details and explore the capabilities of these new models.
 - **2025.01.06** The [CFLUE](https://github.com/aliyun/cflue) dataset has been fully open-sourced and is now available for download!  🚀🚀🚀
 - **2024.05.16** The paper "[Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset](https://arxiv.org/abs/2405.10542)" has been officially accepted by ACL-2024! 🚀🚀🚀
@@ -27,6 +28,12 @@ The **data** and **models** that have been released so far are as follows:
         <th>Paper</th>
     </tr>
     <tr>
+        <th>Fin-PRM</th>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">Fin-PRM</a></td>
+        <td><a href="https://huggingface.co/DianJin">Fin-PRM</a></td>
+        <td><a href="https://arxiv.org/abs/2508.15202">Paper</a></td>
+    </tr>
+    <tr>
         <th>CSC</th>
         <td><a href="https://www.modelscope.cn/datasets/tongyi_dianjin/DianJin-CSC-Data">CSC</a></td>
         <td><a href="https://huggingface.co/datasets/DianJin/DianJin-CSC-Data">CSC</a></td>
@@ -34,7 +41,7 @@ The **data** and **models** that have been released so far are as follows:
     </tr>
     <tr>
         <th>M<sup>3</sup>FinMeeting</th>
-        <td colspan="2">Releasing Soon</td>
+        <td colspan="2">Application Required</td>
         <td><a href="https://arxiv.org/abs/2506.02510">ACL-2025</a></td>
     </tr>
     <tr>
@@ -95,9 +102,16 @@ Equip developers with a suite of financial APIs and tools, making it easy to int
 If you find our work helpful, feel free to give us a cite.
 
 ```
+@article{fin-prm,
+  title = "Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models",
+  author="Yuanchen Zhou, Shuo Jiang, Jie Zhu, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang",
+  journal="arXiv preprint arXiv:2508.15202",
+  year="2025"
+}
+
 @article{csc,
-    title = {Evaluating, Synthesizing, and Enhancing for Customer Support Conversation}, 
-    author = {Jie Zhu, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang, Fang Kong},
+    title = "Evaluating, Synthesizing, and Enhancing for Customer Support Conversation", 
+    author = "Jie Zhu, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang, Fang Kong",
     journal = {https://arxiv.org/abs/2508.04423},
     year = "2025"
 }
@@ -110,9 +124,9 @@ If you find our work helpful, feel free to give us a cite.
 }
 
 @article{dianjin-r1,
-    title = {DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models}, 
-    author = {Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang},
-    journal = {arxiv.org/abs/2504.15716},
+    title = "DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models", 
+    author = "Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang",
+    journal = "arxiv.org/abs/2504.15716",
     year = "2025"
 }
 
