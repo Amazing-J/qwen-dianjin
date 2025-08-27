@@ -12,6 +12,7 @@
 
 ## 🚀 News 
 - **2025.08.25** 🔥🔥🔥 "[Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models](https://arxiv.org/abs/2508.15202)" is now published and open source!
+- **2025.08.18** 🔥🔥🔥 "[DianJin-OCR-R1: Enhancing OCR Capabilities via a Reasoning-and-Tool Interleaved Vision-Language Model](https://www.arxiv.org/abs/2508.13238)" is now published and open source!
 - **2025.08.08** 🔥🔥🔥 "[Evaluating, Synthesizing, and Enhancing for Customer Support Conversation](https://arxiv.org/abs/2508.04423)" is now published and open source!
 - **2025.05.22** "[M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset](https://arxiv.org/abs/2506.02510)" has been officially accepted by ACL-2025! 
 - **2025.04.23** [DianJin-R1](DianJin-R1/README.md) series open source release! This release includes the DianJin-R1-Data dataset, as well as two powerful models: DianJin-R1-7B and DianJin-R1-13B. Please check out our technical report "[DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models](https://arxiv.org/abs/2504.15716)" for more details and explore the capabilities of these new models.
@@ -32,6 +33,12 @@ The **data** and **models** that have been released so far are as follows:
         <td><a href="https://modelscope.cn/organization/tongyi_dianjin">Fin-PRM</a></td>
         <td><a href="https://huggingface.co/DianJin">Fin-PRM</a></td>
         <td><a href="https://arxiv.org/abs/2508.15202">Paper</a></td>
+    </tr>
+    <tr>
+        <th>DianJin-OCR-R1</th>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-OCR-R1</a></td>
+        <td><a href="https://huggingface.co/DianJin">DianJin-OCR-R1</a></td>
+        <td><a href="https://www.arxiv.org/abs/2508.13238">Paper</a></td>
     </tr>
     <tr>
         <th>CSC</th>
@@ -104,9 +111,16 @@ If you find our work helpful, feel free to give us a cite.
 ```
 @article{fin-prm,
   title = "Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models",
-  author="Yuanchen Zhou, Shuo Jiang, Jie Zhu, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang",
+  author="Yuanchen Zhou, Shuo Jiang, Jie Zhu, Junhui Li, Lifan Guo, Feng Chen",
   journal="arXiv preprint arXiv:2508.15202",
   year="2025"
+}
+
+@article{dianjin-ocr-r1,
+  title={DianJin-OCR-R1: Enhancing OCR Capabilities via a Reasoning-and-Tool Interleaved Vision-Language Model},
+  author={Qian Chen, Xianyin Zhang, Lifan Guo, Feng Chen, Chi Zhang},
+  journal={arXiv preprint arXiv:2508.13238},
+  year={2025}
 }
 
 @article{csc,
