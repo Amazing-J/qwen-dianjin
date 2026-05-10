@@ -11,6 +11,8 @@
 
 **中文** | [**EN**](README.md)
 
+**IJCAI 2026** — *Fin-PRM* 已被国际人工智能联合会议录用。
+
 </div>
 
 ## 目录
@@ -112,10 +114,10 @@ bash fin_prm_grpo.sh
 如果您使用了我们的数据集或模型，请引用我们的论文。
 
 ```
-@article{fin-prm,
-  title = "Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models",
-  author="Yuanchen Zhou, Shuo Jiang, Jie Zhu, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang",
-  journal="arXiv preprint arXiv:2508.15202",
-  year="2025"
+@inproceedings{fin-prm,
+  title = {Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models},
+  author = {Yuanchen Zhou and Shuo Jiang and Jie Zhu and Junhui Li and Lifan Guo and Feng Chen and Chi Zhang},
+  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  year = {2026}
 }
 ```

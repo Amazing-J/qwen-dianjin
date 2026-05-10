@@ -11,6 +11,7 @@
 </div>
 
 ## 🚀 News 
+- **2026.05.10** 🎉 "[Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models](https://arxiv.org/abs/2508.15202)" has been accepted by **IJCAI 2026**!
 - **2026.02.27** 🎉 Our papers **FinMCP-Bench** and **CARE** have been accepted by **ICASSP 2026**!
 - **2025.11.15** "[Evaluating, Synthesizing, and Enhancing for Customer Support Conversation](https://arxiv.org/abs/2508.04423)" has been officially accepted by AAAI-2026! 
 - **2025.10.11** "[FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol](./DianJin-TIR/technical%20report_FinMCP_Bench.pdf)" jointly released by Yingmi Fund and partners, is the first benchmark dataset and evaluation framework for real-world financial tool use by LLM agents, built on the MCP.
@@ -36,7 +37,7 @@ The **data** and **models** that have been released so far are as follows:
         <th>Fin-PRM</th>
         <td><a href="https://modelscope.cn/organization/tongyi_dianjin">Fin-PRM</a></td>
         <td><a href="https://huggingface.co/DianJin">Fin-PRM</a></td>
-        <td><a href="https://arxiv.org/abs/2508.15202">Paper</a></td>
+        <td><a href="https://arxiv.org/abs/2508.15202">IJCAI-2026</a></td>
     </tr>
     <tr>
         <th>DianJin-OCR-R1</th>
@@ -120,11 +121,19 @@ If you find our work helpful, feel free to give us a cite.
   year      = {2026}
 }
 
+@inproceedings{fin-prm,
+  title     = {Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models},
+  author    = {Jie Zhu and Yuanchen Zhou and Shuo Jiang and Junhui Li and Lifan Guo and Feng Chen and Chi Zhang},
+  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {2026}
+}
+
 @inproceedings{finmcp-bench,
   title     = {FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol},
   author    = {Jie Zhu and Yimin Tian and Boyang Li and Kehao Wu and Zhongzhi Liang and Junhui Li and Xianyin Zhang and Lifan Guo and Feng Chen and Yong Liu and Chi Zhang},
   booktitle = {Proceedings of ICASSP},
-  year      = {2026}
+  year      = {2026},
+  pages = {19782--19786}
 }
 
 @inproceedings{care-esc,
@@ -132,13 +141,7 @@ If you find our work helpful, feel free to give us a cite.
   author    = {Jie Zhu and Yuanchen Zhou and Shuo Jiang and Junhui Li and Lifan Guo and Feng Chen and Chi Zhang and Fang Kong},
   booktitle = {Proceedings of ICASSP},
   year      = {2026},
-}
-
-@article{fin-prm,
-  title   = {Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models},
-  author  = {Yuanchen Zhou and Shuo Jiang and Jie Zhu and Junhui Li and Lifan Guo and Feng Chen and Chi Zhang},
-  journal = {arXiv preprint arXiv:2508.15202},
-  year    = {2025}
+  pages = {17547-17551}
 }
 
 @article{dianjin-ocr-r1,

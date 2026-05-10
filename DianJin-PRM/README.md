@@ -10,6 +10,8 @@
 
 [**中文**](README_zh.md) | **EN**
 
+**IJCAI 2026** — *Fin-PRM* has been accepted to the International Joint Conference on Artificial Intelligence.
+
 </div>
 
 ## Table of Contents
@@ -110,10 +112,10 @@ This project adheres to [MIT License](https://lbesson.mit-license.org/).
 If you use our model or dataset, please cite our paper.
 
 ```
-@article{fin-prm,
-  title = "Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models",
-  author="Yuanchen Zhou, Shuo Jiang, Jie Zhu, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang",
-  journal="arXiv preprint arXiv:2508.15202",
-  year="2025"
+@inproceedings{fin-prm,
+  title = {Fin-PRM: A Domain-Specialized Process Reward Model for Financial Reasoning in Large Language Models},
+  author = {Yuanchen Zhou and Shuo Jiang and Jie Zhu and Junhui Li and Lifan Guo and Feng Chen and Chi Zhang},
+  booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
+  year = {2026}
 }
 ```
